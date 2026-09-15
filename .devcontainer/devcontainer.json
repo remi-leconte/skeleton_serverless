@@ -1,0 +1,6 @@
+{
+  "name": "Nuxt CMS Dev",
+  "dockerComposeFile": "../compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app"
+}
