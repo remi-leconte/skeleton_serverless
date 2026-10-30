@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['nuxt-auth-utils']
+  modules: ['nuxt-auth-utils'],
+  nitro: {
+    preset: 'cloudflare-pages'
+  }
 })
